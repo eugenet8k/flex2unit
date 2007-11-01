@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view:TestEnvironmentBase xmlns:mx="http://www.adobe.com/2006/mxml" 
+	xmlns:view="org.flex2unit.ui.controls.*"
+	width="100%"
+	height="100%"
+	initialize="onInitialize()">
+	
+	<mx:HDividedBox width="100%" height="100%">
+		<mx:VBox width="100%" height="100%">
+			<mx:Button id="_startButton" label="Start" click="onStartButtonClick()" />
+			<mx:Tree id="_testTree" width="100%" height="100%" />
+		</mx:VBox>
+		<mx:VBox width="100%" height="100%">
+			<mx:Button id="_clearButton" label="Clear" click="onClearButtonClick()" />
+			<mx:VDividedBox width="100%" height="100%">
+				<mx:DataGrid id="_outputDataGrid" width="100%" height="100%" selectable="false" showHeaders="false" dataProvider="{dataProvider}">
+					<mx:columns>
+						<mx:Array>
+							<mx:DataGridColumn width="16" headerText="icon" dataField="icon" itemRenderer="org.flex2unit.ui.common.ImageCellRenderer" />
+							<mx:DataGridColumn headerText="message" dataField="message"/>
+						</mx:Array>
+					</mx:columns>
+				</mx:DataGrid>
+				<mx:VBox width="100%" height="100">
+					<mx:Label text="Result" />
+					<mx:TextArea width="100%" height="100%" editable="false" htmlText="{_testResultMessage}" />
+				</mx:VBox>
+			</mx:VDividedBox>
+		</mx:VBox>
+	</mx:HDividedBox>
+	
+</view:TestEnvironmentBase>
