@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<title>Source of flex2unittest</title>
+	<nodes>
+		<node icon="packageIcon" label="org.flex2unit.framework" expanded="true">
+			<node icon="actionScriptIcon" label="AssertTest.as" url="source/org/flex2unit/framework/AssertTest.as.html"/>
+		</node>
+		<node icon="mxmlAppIcon" selected="true" label="flex2unittest.mxml" url="source/flex2unittest.mxml.html"/>
+	</nodes>
+</index>

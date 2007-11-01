@@ -12,7 +12,7 @@
 			import org.flex2unit.framework.TestSuite;
 		
 			protected function onInitialize() : void {
-				var testSuite : TestSuite = new TestSuite("flex2unit");
+				var testSuite : TestSuite = new TestSuite("Framework");
 				testSuite.addTest(new AssertTest());
 				testEnvironment.test = testSuite;
 			}
