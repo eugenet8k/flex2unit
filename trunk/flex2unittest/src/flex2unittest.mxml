@@ -2,8 +2,7 @@
 <mx:Application 
 	xmlns:mx="http://www.adobe.com/2006/mxml"
 	xmlns:controls="org.flex2unit.ui.controls.*"
-	layout="vertical"
-	viewSourceURL="srcview/index.html"
+	layout="vertical"
 	initialize="onInitialize()">
 	<mx:Script>
 		<![CDATA[
