@@ -10,9 +10,9 @@ package org.flex2unit.framework {
 	import org.flex2unit.framework.events.TestFinishEvent;
 	import org.flex2unit.framework.events.TestStartEvent;
 	import org.flex2unit.framework.interfaces.ITest;
-	import org.goverla.core.collections.ListCollectionViewIterator;
-	import org.goverla.core.event.EventSender;
-	import org.goverla.core.utils.ReflectUtil;
+	import org.goverla.collections.ListCollectionViewIterator;
+	import org.goverla.events.EventSender;
+	import org.goverla.utils.ReflectUtil;
 	
 	public class TestCase extends Assert implements ITest {
 	

@@ -2,7 +2,7 @@ package org.flex2unit.framework.interfaces {
 	
 	
 	import org.flex2unit.framework.TestResult;
-	import org.goverla.core.event.EventSender;
+	import org.goverla.events.EventSender;
 	
 	/** 
 	 * A <code>Test</code> can be run, with the results collected.
