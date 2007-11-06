@@ -18,7 +18,7 @@ package org.flex2unit.ui.controls {
 	import org.flex2unit.ui.common.TestTreeBranchNode;
 	import org.flex2unit.ui.common.TestTreeNode;
 	import org.flex2unit.ui.constants.TestIcons;
-	import org.goverla.core.collections.ListCollectionViewIterator;
+	import org.goverla.collections.ListCollectionViewIterator;
 	
 	/**
 	 * @author Maxym Hryniv

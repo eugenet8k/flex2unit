@@ -2,7 +2,7 @@ package org.flex2unit.framework.errors {
 	
 	import mx.utils.StringUtil;
 	
-	import org.goverla.core.utils.XMLUtil;
+	import org.goverla.utils.XMLUtil;
 	
 	/**
 	 * @author Maxym Hryniv

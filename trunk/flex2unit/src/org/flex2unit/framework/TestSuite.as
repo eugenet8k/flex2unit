@@ -5,8 +5,8 @@ package org.flex2unit.framework {
 	import org.flex2unit.framework.events.TestFinishEvent;
 	import org.flex2unit.framework.events.TestStartEvent;
 	import org.flex2unit.framework.interfaces.ITest;
-	import org.goverla.core.collections.ListCollectionViewIterator;
-	import org.goverla.core.reflect.overload.Overload;
+	import org.goverla.collections.ListCollectionViewIterator;
+	import org.goverla.reflection.overload.Overload;
 	
 	public class TestSuite extends TestCase {
 		

@@ -4,8 +4,8 @@ package org.flex2unit.framework {
 	
 	import org.flex2unit.framework.errors.AssertionFailedError;
 	import org.flex2unit.framework.interfaces.ITest;
-	import org.goverla.core.collections.ListCollectionViewIterator;
-	import org.goverla.core.utils.Arrays;
+	import org.goverla.collections.ListCollectionViewIterator;
+	import org.goverla.utils.Arrays;
 	
 	/**
 	 * A <code>TestResult</code> collects the results of an executing
