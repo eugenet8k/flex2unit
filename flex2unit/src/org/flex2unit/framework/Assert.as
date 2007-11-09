@@ -5,7 +5,7 @@ package org.flex2unit.framework {
 	
 	import org.flex2unit.framework.errors.AssertionFailedError;
 	import org.flex2unit.framework.errors.ComparisonFailureError;
-	import org.goverla.reflection.overload.Overload;
+	import org.goverla.reflection.Overload;
 	
 	/** 
 	 * Base class containing static assert methods.
